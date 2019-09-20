@@ -14,6 +14,7 @@ public class Admin3 extends Adminstrativo{
     public Admin3(String setor) {
         super(setor);
     }
+    @Override
     public double ValorSalario(){
         return ValorSalario();
     }

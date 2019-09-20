@@ -10,12 +10,12 @@ package lista20_9;
  * @author Pedro
  */
 public abstract class Adminstrativo extends Funcionario{
-
+    public String setor;
     public Adminstrativo(String setor) {
         this.setor = setor;
     }
 
-    public String setor;
+
     public double ValorSalario(){
         return ValorSalario();
         
